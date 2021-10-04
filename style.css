@@ -10,6 +10,7 @@ body{
     font-family: Lato, sans-serif;
     font-size: 14px;
     font-size: 1.2rem;
+    text-align: center;
 }
 h1, h2,h3{
     font-family: "Montserrat", sans-serif;
@@ -44,14 +45,16 @@ header div{
     background-color: #c5192d;
     text-align: center;
     color: #fff;
+
+    
 }
 main{
     box-sizing: border-box;
     box-shadow: 0px 0px 1px darkgrey;
     background-color: whitesmoke;
     display: inline-block;
-    margin: 10vh 15vw;
-    width: 70vw;
+    margin-top:6rem;
+    width: 95vw;
 }
 
 ul {
@@ -79,16 +82,17 @@ content: "\1F4DA";
     padding-right: 5px;
 }
 
-article div{
-    width: 40%;
+article{
+    padding: 2rem;
     box-sizing: border-box;
     display: inline-block;
-    padding: 5%;
 }
-
 article img{
-    width:40%;
-    padding: 5%;
-    vertical-align:top;
+    width:100%;
 }
-
+article p{
+    text-align: left;
+}
+article h2{
+    text-align: left;
+}

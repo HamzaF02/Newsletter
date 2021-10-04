@@ -26,15 +26,17 @@ p{
 }
 header{
     position: relative;
-    background-image:url(img/studentsbg.png);
+    background-image: url(img/studentsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-position: center top;
     height: 55vh;
-    width: auto;
+    width: 100%;
 }
 header div{
-    position: absolute;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

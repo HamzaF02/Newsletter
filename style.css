@@ -38,15 +38,14 @@ header div{
     position: relative;
     box-sizing: border-box;
     display: inline-block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 95vw;
     margin-top: 4rem;
     background-color: #c5192d;
     text-align: center;
     color: #fff;
-
-    
+}
+header div p{
+    text-align: center;
 }
 main{
     box-sizing: border-box;
@@ -93,7 +92,6 @@ content: "\1F4DA";
     backgound color: #c5192d;
 }
 
-
 article{
     padding: 2rem;
     box-sizing: border-box;
@@ -107,16 +105,4 @@ article p{
 }
 article h2{
     text-align: left;
-}
-footer{
-    box-sizing: border-box;
-    color: white;
-    text-align: center;
-    background-color:#c5192d;
-    max-width: 95vw;
-    padding: 1rem;
-    margin: 0 auto;
-}
-footer a{
-    color: white;
 }

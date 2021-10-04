@@ -38,15 +38,17 @@ header div{
     position: relative;
     box-sizing: border-box;
     display: inline-block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 95vw;
     margin-top: 4rem;
     background-color: #c5192d;
     text-align: center;
     color: #fff;
+    width: 95vw;
 
     
+}
+header div p{
+    text-align: center;
 }
 main{
     box-sizing: border-box;
@@ -90,6 +92,7 @@ content: "\1F4DA";
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 20px;
+<<<<<<< HEAD
     padding-right: 0px;
     background-color:#c5192d ;
     display: flex;
@@ -99,6 +102,10 @@ content: "\1F4DA";
 
 #intro-container div:nth-child(1){
     background-color:#c5192d ;   
+=======
+    padding-right: 5px;
+    background-color: #c5192d;
+>>>>>>> f17e70776fc93ea56b6bef74f55bec17d52ce31f
 }
 
 #intro-container div:nth-child(2){

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Montserrat";
-    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+    src: url(assets/fonts/Montserrat-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: bold;
 }
@@ -26,7 +26,7 @@ p{
 }
 header{
     position: relative;
-    background-image: url(img/studentsbg.png);
+    background-image: url(assets/img/studentsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;

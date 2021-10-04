@@ -29,7 +29,9 @@ header{
     background-image:url(img/studentsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
     height: 55vh;
+    width: auto;
 }
 header div{
     position: absolute;

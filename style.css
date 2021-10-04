@@ -31,6 +31,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    text-align: center;
     height: 55vh;
     width: 100%;
 }
@@ -40,8 +41,8 @@ header div{
     display: inline-block;
     width: 95vw;
     margin-top: 4rem;
+    padding: 2rem;
     background-color: #c5192d;
-    text-align: center;
     color: #fff;
     width: 95vw;
 

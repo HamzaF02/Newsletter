@@ -44,6 +44,9 @@ header div{
     padding: 2rem;
     background-color: #c5192d;
     color: #fff;
+    width: 95vw;
+
+    
 }
 header div p{
     text-align: center;

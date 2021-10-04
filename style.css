@@ -26,29 +26,30 @@ p{
     line-height: 1.5;
 }
 header{
+    height: 55vh;
+    width: 100%;
     position: relative;
+    text-align: center;
+    justify-content: center;
     background-image: url(assets/img/studentsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    height: 55vh;
-    width: 100%;
 }
 header div{
     position: relative;
     box-sizing: border-box;
     display: inline-block;
+    height: auto;
     width: 95vw;
+    top: 100%;
+    transform: translateY(-100%);
     margin-top: 4rem;
     background-color: #c5192d;
-    text-align: center;
     color: #fff;
-    width: 95vw;
-
-    
 }
-header div p{
-    text-align: center;
+header div h1{
+    padding: 2rem 2rem 0 2rem;  
 }
 main{
     box-sizing: border-box;
@@ -94,7 +95,7 @@ content: "\1F4DA";
     padding-left: 20px;
     padding-right: 0px;
     background-color:#c5192d ;
-    display: flex;
+    display: flex;   /*<------- IKKE LOV */
     align-content: center;
     justify-content: center;
 }

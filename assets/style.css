@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Montserrat”";
+    font-family: "Montserrat";
     src: url(fonts/Montserrat-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: bold;
@@ -12,7 +12,7 @@ body{
     font-size: 1.2rem;
 }
 h1, h2,h3{
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 h1{
     font-size: 4rem;
@@ -38,4 +38,6 @@ header div{
     transform: translate(-50%, -50%);
     margin-top: 4rem;
     background-color: #c5192d;
+    text-align: center;
+    color: #fff;
 }

@@ -23,14 +23,15 @@ h2{
 p{
     max-width:70ch;
     line-height: 1.5;
-    color: pink;
 }
 header{
     position: relative;
     background-image:url(img/studentsbg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
     height: 55vh;
+    width: auto;
 }
 header div{
     position: absolute;

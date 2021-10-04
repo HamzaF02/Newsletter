@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Montserrat”";
+    src: url(fonts/Montserrat-Bold.ttf) type;
+}
+body{
+    background-image: linear-gradient(35deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: Lato, sans-serif;
+}
+h1, h2,h3{
+    font-family: ;
+}
 header{
     background-image:url(img/studentsbg.png);
     height: 55vh;

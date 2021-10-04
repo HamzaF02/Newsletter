@@ -44,13 +44,21 @@ header div{
     color: #fff;
 }
 main{
+    box-sizing: border-box;
     box-shadow: 0px 0px 1px darkgrey;
     background-color: whitesmoke;
+    display: inline-block;
+    margin: 10vh 15%;
+
 }
-.intro-container {
-    padding-top: 20px;;
+
+#intro-container div{
+    box-sizing: border-box;
+    display: inline-block;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
-    padding-right: 5px
+    padding-right: 5px;
+    width: 50%;
 }
 

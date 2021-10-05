@@ -144,8 +144,9 @@ footer a{
     }
     main{
         width: 85vw;
-        text-align: justify;
+        text-align: unset;
     }
+
     article img{
         width:45%;
         vertical-align: top;

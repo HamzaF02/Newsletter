@@ -91,27 +91,23 @@ content: "\1F4DA";
 
 #intro-container{
     padding: 2rem;
-    background-color:#c5192d ;
-    display: flex;   /*<------- IKKE LOV */
     align-content: center;
     justify-content: center;
+
 }
 
 #intro-container div:nth-child(1){
     background-color:#c5192d ;   
-    padding-right: 5px;
-    background-color: #c5192d;
 }
 
-#intro-container div:nth-child(2){
-    background-color: white;
-}
+
 
 
 article{
     padding: 2rem;
     box-sizing: border-box;
     display: inline-block;
+    border-top: solid 0.1px #c3cfe2;
 }
 article img{
     width:100%;
@@ -122,16 +118,50 @@ article p{
 article h2{
     text-align: left;
 }
-
 footer{
     box-sizing: border-box;
     color: white;
-    text-align: center;
     background-color:#c5192d;
     max-width: 95vw;
     padding: 1rem;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 }
 footer a{
     color: white;
+}
+
+@media (min-width:960px) {
+    body{
+        font-size: 24px;
+        font-size: 1.2rem;
+    }
+    header{
+        height: 65vh;
+    }
+    main{
+        width: 70vw;
+        text-align: unset;
+    }
+    article img{
+        width:45%;
+        vertical-align: top;
+    }
+    article div{
+        width: 45%;
+        display: inline-block;
+    }
+    article :first-child{
+        margin-right: 9%;
+    }
+    header div{
+        width:70vw;
+    }
+    footer{
+        width: 70vw;
+        margin: 2rem auto 0;
+        padding: 2rem;
+    }
+    footer p{
+        margin: 0 auto;
+    }
 }

@@ -134,17 +134,17 @@ footer a{
     color: white;
 }
 
-@media (min-width:960px) {
+@media (min-width:600px) {
     body{
-        font-size: 24px;
+        font-size: 16px;
         font-size: 1.2rem;
     }
     header{
         height: 65vh;
     }
     main{
-        width: 70vw;
-        text-align: unset;
+        width: 85vw;
+        text-align: justify;
     }
     article img{
         width:45%;
@@ -155,17 +155,31 @@ footer a{
         display: inline-block;
     }
     article :first-child{
-        margin-right: 9%;
+        margin-right: 8%;
     }
     header div{
-        width:70vw;
+        width:85vw;
     }
     footer{
-        width: 70vw;
+        width: 85vw;
         margin: 2rem auto 0;
         padding: 2rem;
     }
     footer p{
         margin: 0 auto;
+    }
+}
+
+@media (min-width:960px) {
+    body{
+        font-size: 24px;
+        font-size: 1.2rem;
+    }
+
+    main{
+        width: 70vw;
+    }
+    header div{
+        width:70vw;
     }
 }

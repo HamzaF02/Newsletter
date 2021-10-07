@@ -105,13 +105,12 @@ content: "\1F4DA";
 }
 
 
-
-
 article{
     padding: 2rem;
     box-sizing: border-box;
     display: inline-block;
     border-top: solid 0.1px #c3cfe2;
+    margin: 0 auto;
 }
 article img{
     width:100%;
@@ -193,5 +192,8 @@ footer a{
     }
     header div{
         width:70vw;
+    }
+    footer{
+        width: 70vw;
     }
 }

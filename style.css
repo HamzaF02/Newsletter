@@ -66,14 +66,18 @@ main{
 
 ul {
     list-style-type: none;
+    list-style-position: inside;
     padding-left: 0rem;
+    text-indent: 1rem;
 }
 
-
-
+ul li::first-letter{
+    padding-left: 1rem;
+}
 ul li:nth-child(1)::marker{
     content: "\1F64C";
 }
+
 
 ul li:nth-child(2)::marker{
     content: "\1F3EB";
@@ -82,7 +86,7 @@ ul li:nth-child(2)::marker{
 ul li:nth-child(3)::marker{
     content: "\1F4DA";
 }
-li::marker{
+ul li::marker{
     margin: 0 1rem;
 }
 

@@ -74,6 +74,7 @@ ul {
 ul li::first-letter{
     padding-left: 1rem;
 }
+
 ul li:nth-child(1)::marker{
     content: "\1F64C";
 }
@@ -85,9 +86,6 @@ ul li:nth-child(2)::marker{
 
 ul li:nth-child(3)::marker{
     content: "\1F4DA";
-}
-ul li::marker{
-    margin: 0 1rem;
 }
 
 #intro-container{
@@ -182,6 +180,7 @@ footer a{
         background-color:#c5192d;
         position:absolute;
         width: 50%;
+        height: 100%;
     }
     #intro-container > div:nth-child(2){
         margin-left: 50%;

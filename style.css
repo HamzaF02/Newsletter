@@ -32,8 +32,8 @@ header{
     width: 100%;
     position: relative;
     text-align: center;
-    justify-content: center;
     background-image: url(assets/img/studentsbg.png);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -57,7 +57,7 @@ header div p {
     padding-bottom: 2rem;
 }
 main{
-    box-shadow: 0px 0px  1px darkgrey;
+    box-shadow: 0px 0px 0px  1px darkgrey;
     background-color: whitesmoke;
     margin-top:8rem;
     width: 95vw;
@@ -92,13 +92,16 @@ ul li:nth-child(3)::marker{
     background-color:#c5192d ;   
     padding: 2rem;
 
+
+}
+main article:nth-child(2){
+    border-bottom: solid 0.1px #c3cfe2;
 }
 
 
 article{
     padding: 2rem;
     display: inline-block;
-    border-top: solid 0.1px #c3cfe2;
     margin: 0 auto;
 
     
@@ -139,6 +142,10 @@ footer a{
     main{
         width: 85vw;
     }
+    article{
+        border-bottom: 0;
+        border-top: solid 0.1px #c3cfe2;
+    }
 
     article img{
         width:45%;
@@ -147,6 +154,7 @@ footer a{
     article div{
         width: 45%;
         display: inline-block;
+        
     }
     article :first-child{
         margin-right: 8%;
@@ -164,11 +172,12 @@ footer a{
     }
 
     #intro-container{
-        background-color: white;
+        background-color: whitesmoke;
         padding:0rem;
         margin: 0rem;
         width: 100%;
-        position: relative
+        position: relative;
+        border-top: 0;
     }
     #intro-container div{
         padding: 2rem;
@@ -185,7 +194,6 @@ footer a{
     #intro-container > div:nth-child(2){
         margin-left: 50%;
     }
-    
     
 }
 
